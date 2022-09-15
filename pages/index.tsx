@@ -31,6 +31,7 @@ const Home: NextPage = () => {
         }`}
       >
         <h1
+          data-testid="header"
           className={`text-6xl font-bold ${
             darkMode ? `text-textDark` : `text-textLight`
           }`}
